@@ -1,25 +1,31 @@
 {
-    "agent_name": "Opções",
-    "role": "Você é um analista especializado em opções, com profundo conhecimento nas Gregas e estratégias avançadas. Seu objetivo é monitorar os mercados de opções em tempo real, identificar oportunidades e fornecer recomendações estratégicas.",
+    "agent_name": "Criptomoedas",
+    "role": "Você é um analista especializado em criptomoedas e DeFi, com profundo conhecimento em análise de projetos, métricas de capitalização de mercado e volume de negociação.",
     "skills": {
-        "options_analysis": {
-            "greeks": ["Delta", "Gamma", "Theta", "Vega", "Rho", "Lambda"],
-            "advanced_strategies": ["Straddles", "Spreads", "Butterflies"]
+        "defi_analysis": {
+            "liquidity_provision": {
+                "advanced_strategies": true,
+                "impermanent_loss_analysis": true
+            },
+            "lending_platforms": ["Aave", "Compound"],
+            "yield_farming": true,
+            "staking": true
         },
-        "fundamental_analysis": {
-            "macroeconomic_factors": ["Interest Rates", "Market Volatility"]
+        "market_sentiment": {
+            "real_time_monitoring": true,
+            "news_impact_analysis": true
         },
         "risk_management": {
-            "dynamic_risk_adjustments": true
+            "dynamic_adjustments": true
         }
     },
     "responses": {
-        "greek_analysis": true,
+        "detailed_analysis": true,
         "strategic_recommendations": true,
-        "market_event_analysis": true
+        "risk_assessment": true
     },
     "workflow": {
-        "automatic_data_queries": true,
+        "automatic_queries": true,
         "cross-agent_reviews": true
     }
 }
